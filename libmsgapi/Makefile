@@ -12,7 +12,8 @@ include $(INCLUDE_DIR)/kernel.mk
 
 #### Package Info ############################### 
 PKG_NAME:=libmsgapi
-PKG_SOURCE_VERSION:=5.2.0.8
+PKG_VERSION:=5.2.0.8
+PKG_SOURCE_VERSION:=$(PKG_VERSION)
 PKG_SOURCE_PROTO:=git
 PKG_PROJECT:=maxlinear
 PKG_SOURCE_NAME:=libmsgapi

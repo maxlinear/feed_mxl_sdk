@@ -11,7 +11,8 @@ include $(INCLUDE_DIR)/kernel.mk
 
 #### Package Info ############################### 
 PKG_NAME:=libhelper
-PKG_SOURCE_VERSION:=5.1.1.11
+PKG_VERSION:=5.1.1.11
+PKG_SOURCE_VERSION:=$(PKG_VERSION)
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_NAME:=libhelper
 CONFIG_UGW_PKG_SOURCE_URL:=ssh://git@github.com
